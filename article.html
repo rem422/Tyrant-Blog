@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tyrant Blog</title>
+
+    <!-- fonts awesome icons cdn  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+
+    <!-- swiper slider css file -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/7.3.0/swiper-bundle.min.css"
+      integrity="sha512-RgkLimDg6WGzMjR96thBWOfr95Lr2aCxdp8JVAeiHtnu1Mj7/mNeodg39KRRoHOE0fUf1ju6WP2iFaFtpl5WKg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- custom style.css file -->
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <!-- Header section -->
+    <header id="header" class="shadow bg-light">
+      <nav class="container navbar">
+        <a href="#" class="nav-brand text-dark">Tyrant</a>
+
+        <!-- toggle button -->
+        <button class="toggle-btn">
+          <span><i class="fas fa-bars"></i></span>
+        </button>
+
+        <!--Collapse on toggle button click-->
+        <div class="collapse">
+          <ul class="navbar-nav">
+            <a href="./index.html" class="nav-link">Home</a>
+            <a href="#" class="nav-link">Blog</a>
+            <a href="#slider" class="nav-link">Pages</a>
+            <a href="./sidebar.html" class="nav-link">Categories</a>
+            <a href="#footer" class="nav-link">About</a>
+            <a href="#footer" class="nav-link">Contact</a>
+          </ul>
+        </div>
+        <!--Collapse on toggle button click-->
+        <div class="collapse">
+          <ul class="navbar-nav">
+            <div class="search-box">
+              <a href="#" class="nav-link"><i class="fas fa-search"></i></a>
+            </div>
+            <a href="#" class="nav-link"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="nav-link"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="nav-link"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="nav-link"><i class="fab fa-dribbble"></i></a>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!-- //Header section -->
+
+    <!-- Main site -->
+    <main id="site-main">
+      <!-- Post content -->
+      <section class="container">
+        <article id="post">
+          <!-- article headings -->
+          <div class="headings text-center">
+            <div class="cartegory">
+              <a href="#" class="nav-link">Travel</a>
+            </div>
+            <div class="title">
+              <h2 class="text-title text-dark display-1">
+                Looking for some feedback for this rejected track technology
+              </h2>
+            </div>
+
+            <div class="meta">
+              <a href="#" class="link display-2 text-secondary px-1"
+                ><i class="fas fa-user text-primary"></i> Adam John</a
+              >
+
+              <a href="#" class="link display-2 text-secondary px-1"
+                ><i class="fas fa-clock text-primary"></i> Clock wed 02, 2018</a
+              >
+
+              <a href="#" class="link display-2 text-secondary px-1"
+                ><i class="fas fa-comments text-primary"></i> 158</a
+              >
+            </div>
+          </div>
+
+          <!-- thumbnail -->
+          <div class="thumnail mt-3">
+            <img src="./assets/post/card.jpg" class="thumbnail" alt="img" />
+          </div>
+
+          <!-- content -->
+          <div class="content text-dark display-2 secondary-title mt-3">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
+              tempore asperiores porro aspernatur magni nemo a, laborum eos odit
+              aliquid, qui quibusdam officiis maxime quia vel autem, praesentium
+              dicta? Cumque quia delectus adipisci impedit laborum consequuntur.
+              In quisquam ex earum explicabo quasi dolor. Vitae, alias. Animi
+              vel exercitationem debitis accusamus suscipit libero labore,
+              tenetur vitae odit. In beatae mollitia soluta nisi repudiandae
+              itaque aut ipsa ipsum, non amet autem officia perferendis ad,
+              tempora aperiam atque incidunt inventore expedita porro! Voluptas
+              quam quisquam earum accusamus? Voluptatibus dignissimos repellat
+              voluptatem nobis autem eligendi dolor, laudantium, repellendus
+              molestiae fugit amet mollitia nemo earum.
+            </p>
+
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
+              eveniet, molestiae tenetur eum hic ab temporibus nihil in vel ad
+              quasi tempora enim iusto, aliquid repellendus vitae sequi
+              cupiditate consequuntur.
+            </p>
+
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum,
+              laudantium, non dolorum nisi accusamus saepe sint veritatis unde
+              officiis dolore, sit quos! Id voluptatum mollitia pariatur
+              deleniti labore quia molestias, ducimus soluta impedit recusandae
+              laboriosam iste illo. Repudiandae aut, sunt ducimus molestias
+              illum est! Aliquid nemo consequuntur magni ipsum, et ea aut
+              tempore unde ullam reiciendis animi voluptates alias amet.
+            </p>
+          </div>
+        </article>
+
+        <!-- post footer -->
+        <div class="post-footer mb-3">
+          <div class="post-tags d-flex flex-wrap justify-content-center">
+            <a href="" class="nav-link btn bg-light">Travel</a>
+            <a href="" class="nav-link btn bg-light">Food</a>
+            <a href="" class="nav-link btn bg-light">Lifestyle</a>
+            <a href="" class="nav-link btn bg-light">Technology</a>
+            <a href="" class="nav-link btn bg-light">Fashion</a>
+          </div>
+
+          <div class="post-author text-center">
+            <div class="author-avatar">
+              <img
+                src="./assets/article/author.jpg"
+                class="rounded"
+                alt="img"
+              />
+            </div>
+            <div class="author-info py-2">
+              <h3 class="text-secondary secondary-title">Anne Jackson</h3>
+              <p class="text-secondary secondary-title">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Deserunt enim dolores reiciendis et dicta aperiam qui dolorum
+                possimus pariatur maiores?
+              </p>
+
+              <div class="post-tags d-flex flex-wrap justify-content-center">
+                <a href="#" class="nav-link">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#" class="nav-link">
+                  <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#" class="nav-link">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#" class="nav-link">
+                    <i class="fab fa-dribbble"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+  
+          <!-- post related -->
+          <div class="post-related py-2">
+              <div class="row justify-content-center">
+                  <div class="prev">
+                      <div class="py-2">
+                          <a href="#" class="display-2 text-dark">
+                              <i class="fas fa-chevron-left"></i>
+                              Previous Post
+                            </a>
+                      </div>
+                      <article class="article text-center">
+                          <div class="d-flex">
+                              <a href="#">
+                                  <img src="./assets/article/wash_your_hands.jpg" class="object-fit" alt="img">
+                                </a>
+                                <div class="card-body px-1">
+                                    <div class="category">
+                                        <a href="#" class="link text-primary text-secondary">Fashon</a>
+                                    </div>
+                                    <a href="#" class="text-title display-1 text-dark">Looking for some feedback for this rejected track technology</a>
+                                </div>
+                          </div>
+                      </article>
+                  </div>
+
+                  <div class="next text-right">
+                    <div class="py-2">
+                        <a href="#" class="display-2 text-dark">
+                            Next Post
+                            <i class="fas fa-chevron-right"></i>
+                          </a>
+                    </div>
+                    <article class="article text-center">
+                        <div class="d-flex">
+                              <div class="card-body px-1">
+                                  <div class="category">
+                                      <a href="#" class="link text-primary text-secondary">Fashon</a>
+                                  </div>
+                                  <a href="#" class="text-title display-1 text-dark">Looking for some feedback for this rejected track technology</a>
+                              </div>
+                              <a href="#">
+                                <img src="./assets/article/photography.jpg" class="object-fit" alt="img">
+                              </a>
+                        </div>
+                    </article>
+                </div>
+              </div>
+          </div>
+          <!-- comments -->
+          <div class="post-comments py-2">
+              <h3 class="text-center display-1 secondary-title py-3">10 Comments</h3>
+              <div class="comment-details">
+                  <div class="comment-item py-2">
+                      <div class="d-flex">
+                          <div class="avator px-2">
+                              <img src="./assets/article/comments-1.jpg" class="rounded" alt="img">
+                          </div>
+                          <div class="comment-content">
+                              <h5 class="display-2 m-0">Brandon Kelly</h5>
+                              <p class="title-secondary text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus deserunt voluptates sed harum tempore enim, debitis architecto impedit nesciunt, numquam nisi quam.</p>
+                          </div>
+                      </div>
+                      <!-- comment reply -->
+                      <div class="reply py-2">
+                          <div class="d-flex">
+                              <div class="avatar px-2">
+                                <img src="./assets/article/comments-2.jpg" class="rounded" alt="img">
+                              </div>
+                              <div class="comment-content">
+                                <h5 class="display-2 m-0">Josephine Brandon </h5>
+                                <p class="title-secondary text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus deserunt voluptates sed harum tempore enim, debitis architecto impedit nesciunt, numquam nisi quam.</p>
+                            </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="comment-item py-2">
+                    <div class="d-flex">
+                        <div class="avator px-2">
+                            <img src="./assets/article/comments-3.jpg" class="rounded" alt="img">
+                        </div>
+                        <div class="comment-content">
+                            <h5 class="display-2 m-0">Ken Jason</h5>
+                            <p class="title-secondary text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus deserunt voluptates sed harum tempore enim, debitis architecto impedit nesciunt, numquam nisi quam.</p>
+                        </div>
+                    </div>
+                  </div>
+              </div>
+              <!-- comment form -->
+              <div class="comment-form">
+                  <h3 class="text-center display-1 secondary-title py-2">Leave Comment</h3>
+                  <div class="d-flex justify-content-between flex-wrap">
+                      <input type="text" class="form-control" placeholder="Name">
+                      <input type="email" class="form-control" placeholder="Email">
+                      <input type="text" class="form-control" placeholder="Website">
+                  </div>
+                  <textarea class="form-control mt-3" placeholder="Message" rows="10"></textarea>
+                  <div class="text-center">
+                      <button class="btn btn-primary text-light mt-2">Submit</button>
+                  </div>
+              </div>
+          </div>
+        </div>
+        <!-- .//post footer -->
+      </section>
+      <!-- .//Post content -->
+
+      <!-- Swiper slider -->
+      <section class="slider">
+        <div class="container">
+          <!-- Slider main container -->
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <a href="#">
+                  <img
+                    src="./assets/slider/projector.jpg"
+                    class="img-fluid"
+                    alt="img"
+                  />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#">
+                  <img
+                    src="./assets/slider/paris.jpg"
+                    class="img-fluid"
+                    alt="img"
+                  />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#">
+                  <img
+                    src="./assets/slider/lady.jpg"
+                    class="img-fluid"
+                    alt="img"
+                  />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#">
+                  <img
+                    src="./assets/slider/lamb.jpg"
+                    class="img-fluid"
+                    alt="img"
+                  />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#">
+                  <img
+                    src="./assets/slider/swiming.jpg"
+                    class="img-fluid"
+                    alt="img"
+                  />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#">
+                  <img
+                    src="./assets/slider/dog.jpg"
+                    class="img-fluid"
+                    alt="img"
+                  />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#">
+                  <img
+                    src="./assets/slider/stop.jpg"
+                    class="img-fluid"
+                    alt="img"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- .//Swiper slider -->
+    </main>
+    <!-- //Main site -->
+
+    <!-- footer section -->
+    <footer id="footer">
+      <div class="container">
+        <div class="row mb-3">
+          <div class="col-3">
+            <h2 class="footer-title secondary-title">About Us</h2>
+            <div class="secondary-title text-secondary">
+              <p class="mt-2">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste
+                debitis possimus similique nisi fugiat excepturi tenetur nemo
+                expedita explicabo quae.
+              </p>
+              <address>
+                <i class="fas fa-map-marker text-primary"></i>
+                2 South Main Street Los Angeles, ZZ-61924 USA
+              </address>
+              <div class="phone">
+                <i class="fas fa-mobile-alt text-primary"></i>
+                251-698-854
+              </div>
+              <div class="email">
+                <i class="fas fa-envelope text-primary"></i>
+                abc@example.com
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <h2 class="footer-title secondary-title">Feature Post</h2>
+            <div class="feature-post">
+              <div class="flex-item">
+                <article class="article">
+                  <div class="d-flex">
+                    <a href="#">
+                      <img
+                        src="./assets/footer/chairs.jpg"
+                        class="object-fit px-1"
+                        alt="img"
+                      />
+                      <div class="px-1">
+                        <a href="#" class="text-title display-2 text-dark">
+                          Looking for some feedback for this rejected track
+                        </a>
+                        <p class="secodary-title text-secondary display-3">
+                          <span
+                            ><i class="fas fa-clock text-primary"></i> Clock wed
+                            02, 2021</span
+                          >
+                        </p>
+                      </div>
+                    </a>
+                  </div>
+                </article>
+              </div>
+              <div class="flex-item">
+                <article class="article">
+                  <div class="d-flex">
+                    <a href="#">
+                      <img
+                        src="./assets/footer/home_office.jpg"
+                        class="object-fit px-1"
+                        alt="img"
+                      />
+                      <div class="px-1">
+                        <a href="#" class="text-title display-2 text-dark">
+                          Looking for some feedback for this rejected track
+                        </a>
+                        <p class="secodary-title text-secondary display-3">
+                          <span
+                            ><i class="fas fa-clock text-primary"></i> Clock wed
+                            02, 2021</span
+                          >
+                        </p>
+                      </div>
+                    </a>
+                  </div>
+                </article>
+              </div>
+              <div class="flex-item">
+                <article class="article">
+                  <div class="d-flex">
+                    <a href="#">
+                      <img
+                        src="./assets/footer/healthy_food.jpg"
+                        class="object-fit px-1"
+                        alt="img"
+                      />
+                      <div class="px-1">
+                        <a href="#" class="text-title display-2 text-dark">
+                          Looking for some feedback for this rejected track
+                        </a>
+                        <p class="secodary-title text-secondary display-3">
+                          <span
+                            ><i class="fas fa-clock text-primary"></i> Clock wed
+                            02, 2021</span
+                          >
+                        </p>
+                      </div>
+                    </a>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <h2 class="footer-title secondary-title">Tags</h2>
+
+            <div class="tags">
+              <div class="d-flex flex-wrap">
+                <a href="#" class="nav-link btn bg-light">Travel</a>
+                <a href="#" class="nav-link btn bg-light">Food</a>
+                <a href="#" class="nav-link btn bg-light">Lifestyle</a>
+                <a href="#" class="nav-link btn bg-light">Technology</a>
+                <a href="#" class="nav-link btn bg-light">Fashon</a>
+              </div>
+            </div>
+
+            <h2 class="footer-title secondary-title mt-2">Social</h2>
+
+            <div class="tags social">
+              <div class="d-flex flex-wrap">
+                <a href="#" class="nav-link btn bg-light"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+                <a href="#" class="nav-link btn bg-light"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+                <a href="#" class="nav-link btn bg-light"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+                <a href="#" class="nav-link btn bg-light"
+                  ><i class="fab fa-dribbble"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- copyrights -->
+        <div class="copyrights">
+          <p class="text-center text-secondary display-2">
+            &copy;<span id="year"></span>
+            <a href="#" class="text-primary">Tyrant Blog</a>.All rights reserved
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- .//footer section -->
+
+    <!-- masonry library for horizontal grid -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/3.3.0/masonry.pkgd.min.js"></script>
+
+    <!-- swiper slider cdn -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/7.3.0/swiper-bundle.min.js"
+      integrity="sha512-5Zo75sFi47jEROGHPhhx+IUh77BJ3W8gweIYENZGMtfbey8rJ0MzYNRponea9NMM62mwaz+Ze8TE1T4iyuKShQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- custom main.js file -->
+    <script src="./js/main.js"></script>
+  </body>
+</html>
